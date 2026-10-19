@@ -1,0 +1,11 @@
+[package]
+name = "pdf_editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.31"       # Native OS window container and loop
+egui = "0.31"         # The UI rendering engine toolkit
+rfd = "0.14"          # Native OS file dialog (Rust File Dialog)
+pdf_oxide = "0.3"     # Native PDF parsing & mutation logic
+
